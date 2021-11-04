@@ -12,6 +12,11 @@ func main() {
 	fmt.Println(x + x)
 	add(100, 564)
 	foo()
+	s := "hello"
+	fmt.Println(s)
+	s = "goodbye"
+	fmt.Println(s)
+
 	// variables.sub(555, 4544)
 	// for i := 0; i < 100; i++ {
 	// 	if i%2 == 0 {
